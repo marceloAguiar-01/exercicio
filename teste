@@ -1,0 +1,13 @@
+import turtle
+
+t = turtle.Turtle()
+turtle.bgcolor("red")
+cores = ["red", "orange", "yellow", "green", "blue", "purple"]
+
+t.speed(0)
+for i in range(200):
+    t.color(cores[i % len(cores)])
+    t.forward(i * 2)
+    t.right(70)
+
+turtle.done()

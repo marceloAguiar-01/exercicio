@@ -1,0 +1,22 @@
+# D015 - Hipotenusa de um triângulo retângulo
+
+professor = 'MICHALES CAMURÇA'
+data = '12/08/2025'
+aluno = 'Marcelo Aguiar de Barros'
+atividade = 'D015 - Hipotenusa de um triângulo retângulo'
+print('CETAM - CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
+print('CURSO: DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA: ',data, )
+print('PROFESSOR:', professor)
+print('ALUNO: ', aluno, )
+print('ATIVIDADE: ',atividade, )
+
+
+import math
+
+cateto_a = float(input("Digite o comprimento do cateto A: "))
+cateto_b = float(input("Digite o comprimento do cateto B: "))
+
+hipotenusa = math.hypot(cateto_a, cateto_b)  # equivalente a sqrt(a*a + b*b)
+print(f"Catetos: {cateto_a} e {cateto_b}. Hipotenusa = {hipotenusa:.4f}")

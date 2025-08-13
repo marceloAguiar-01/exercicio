@@ -1,0 +1,41 @@
+# D018 - Ordem de apresentação de 4 alunos (embaralhar)
+
+
+professor = 'MICHALES CAMURÇA'
+data = '12/08/2025'
+aluno = 'Marcelo Aguiar de Barros'
+atividade = 'D014 - Parte inteira'
+print('CETAM - CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
+print('CURSO: DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA: ',data, )
+print('PROFESSOR:', professor)
+print('ALUNO: ', aluno, )
+print('ATIVIDADE: ',atividade, )
+
+import random
+
+aluno1 = 'a' ##input("Digite o nome do aluno 1: ")
+aluno2 = 'b' #input("Digite o nome do aluno 2: ")
+aluno3 = 'c' #input("Digite o nome do aluno 3: ")
+aluno4 = 'd' #input("Digite o nome do aluno 4: ")
+
+lista_alunos = [aluno1, aluno2, aluno3, aluno4]
+random.shuffle(lista_alunos) 
+
+print(f"1º - {lista_alunos[0]}")
+print(f"2º - {lista_alunos[1]}")
+print(f"3º - {lista_alunos[2]}")
+print(f"4º - {lista_alunos[3]}")
+
+'''
+import random
+
+print("Digite o nome de 4 alunos (um por vez):")
+alunos = [input(f"Aluno {i+1}: ").strip() for i in range(4)]
+
+random.shuffle(alunos)
+print("Ordem de apresentação:")
+for i, nome in enumerate(alunos, start=1):
+    print(f"{i}º - {nome}")
+'''

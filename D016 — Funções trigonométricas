@@ -1,0 +1,27 @@
+# D016 - Cosseno e Tangente (ângulo em graus)
+
+
+professor = 'MICHALES CAMURÇA'
+data = '12/08/2025'
+aluno = 'Marcelo Aguiar de Barros'
+atividade = 'D016 - Cosseno e Tangente (ângulo em graus)'
+print('CETAM - CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
+print('CURSO: DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA: ',data, )
+print('PROFESSOR:', professor)
+print('ALUNO: ', aluno, )
+print('ATIVIDADE: ',atividade, )
+
+
+import math
+
+angulo_graus = float(input("Digite um ângulo em graus: "))
+angulo_rad = math.radians(angulo_graus)
+
+cosseno = math.cos(angulo_rad)
+tangente = math.tan(angulo_rad)
+
+print(f"Ângulo: {angulo_graus}°")
+print(f"Cosseno = {cosseno:.6f}")
+print(f"Tangente = {tangente:.6f}")

@@ -1,0 +1,21 @@
+# D014 - Parte inteira
+
+professor = 'MICHALES CAMURÇA'
+data = '12/08/2025'
+aluno = 'Marcelo Aguiar de Barros'
+atividade = 'D014 - Parte inteira'
+print('CETAM - CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
+print('CURSO: DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA: ',data, )
+print('PROFESSOR:', professor)
+print('ALUNO: ', aluno, )
+print('ATIVIDADE: ',atividade, )
+
+
+import math
+
+num = float(input("Digite um número real: "))
+parte_inteira = math.trunc(num)  # remove a parte fracionária (trunca)
+print(f"O número digitado foi {num} e sua parte inteira é {parte_inteira}.")
+
