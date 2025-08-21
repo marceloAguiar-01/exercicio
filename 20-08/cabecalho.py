@@ -1,0 +1,11 @@
+def exibir_cabecalho(titulo: str, data: str='xx/xx/xxxx'):
+    print('CETAM - CENTRO DE EDUCAÇÃO TECNOLÓGICA DO AMAZONAS')
+    print('CURSO: DESENVOLVIMENTO DE SISTEMA')
+    print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+    print('DATA: ',data, )
+    print('PROFESSOR: MICHALES CAMURÇA')
+    print('ALUNO: Marcelo Aguiar de Barros' )
+    print('ATIVIDADE: ',titulo, )
+    print('=='*30)
+    print(titulo)
+    print('==' * 30)
